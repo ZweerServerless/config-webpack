@@ -2,7 +2,7 @@
   "name": "zweer-serverless-config-webpack",
   "description": "A bunch of configurations for webpack in a serverless environment",
   "version": "0.0.1",
-  "main": "config/index.js",
+  "main": "config/serverless.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
