@@ -1,0 +1,39 @@
+{
+  "name": "zweer-serverless-config-webpack",
+  "description": "A bunch of configurations for webpack in a serverless environment",
+  "version": "0.0.1",
+  "main": "config/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZweerServerless/config-webpack.git"
+  },
+  "keywords": [
+    "serverless",
+    "webpack",
+    "configuration"
+  ],
+  "author": "Niccolò Olivieri <niccolo@olivieriachille.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZweerServerless/config-webpack/issues"
+  },
+  "homepage": "https://github.com/ZweerServerless/config-webpack#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "serverless-webpack": "^4.3.0",
+    "webpack": "^3.11.0",
+    "webpack-node-externals": "^1.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.9.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0"
+  }
+}
