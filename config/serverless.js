@@ -2,7 +2,7 @@ const path = require('path');
 const slsw = require('serverless-webpack'); // eslint-disable-line import/no-extraneous-dependencies
 const nodeExternals = require('webpack-node-externals'); // eslint-disable-line import/no-extraneous-dependencies
 
-const rootDir = path.join(__dirname, '..', '..');
+const rootDir = path.join(__dirname, '..', '..', '..');
 
 module.exports = {
   entry: slsw.lib.entries,
@@ -30,7 +30,6 @@ module.exports = {
               node: '6.10',
             },
           }],
-          'stage-0',
         ],
       },
     }],
