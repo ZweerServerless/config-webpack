@@ -9,7 +9,7 @@ You have to install it (to let npm/yarn handle its dependencies) putting this in
 ```json
 "devDependencies": {
   ...
-  "config-webpack": "./config/webpack"
+  "zweer-serverless-config-webpack": "./config/webpack"
   ...
 }
 ```
